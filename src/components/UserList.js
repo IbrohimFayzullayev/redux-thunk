@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import "../components/style.css";
-const UserList = (props) => {
-  // console.log(props.getState());
 
+const UserList = (props) => {
   const a = props.countries.length ? "none" : "block";
   const [word, setWord] = useState("");
   const renderHtml = () => {
