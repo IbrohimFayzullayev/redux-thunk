@@ -1,0 +1,80 @@
+.countries {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  overflow: auto;
+  height: 92vh;
+}
+.country p {
+  margin: 0;
+  font-weight: 600;
+  font-size: 24px;
+}
+.country h4 {
+  font-size: 20px;
+  margin: 0;
+}
+.country {
+  cursor: pointer;
+  padding: 4px 8px;
+  box-shadow: 0.3px 0.6px 5px #777;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 10px;
+  user-select: none;
+}
+.selected {
+  height: 92vh;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 100%;
+  overflow: auto;
+}
+
+.app {
+  display: grid;
+  max-width: 80%;
+  grid-template-columns: 2fr 4fr;
+  gap: 30px;
+  margin: 20px auto;
+}
+.reports {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  /* position: fixed; */
+  /* top: 40px;
+  left: 600px; */
+}
+.report {
+  box-shadow: 0.3px 0.6px 4px #777;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  align-items: center;
+  padding: 10px 20px;
+}
+.report p {
+  margin: 0;
+  font-size: 16px;
+}
+.get_started_btn {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  padding: 8px 16px;
+  color: white;
+  background-color: green;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.title {
+  text-align: center;
+}
